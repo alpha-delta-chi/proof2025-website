@@ -1,70 +1,81 @@
 theme: jekyll-theme-conference
 ignore_theme_config: true
 
-title: 'Proof2025'
+title: 'Proof Society 2025'
 description: >-
-  <Filler Text>
+  7<sup>th</sup> International School and Workshop on Proof Theory<br>
+  <small>September 1–5, Ghent, Belgium</small>
 
 url: https://proof2025.ugent.be
 
-collections:
-  talks:
-    output: false
-    permalink: /talks/:title/
-  speakers:
-    output: false
-  rooms:
-    output: false
+# collections:
+#   talks:
+#     output: true
+#     permalink: /talks/:title/
+#   speakers:
+#     output: true
+#   rooms:
+#     output: true
 
-defaults:
-  - scope:
-      path: ''
-      type: talks
-    values:
-      layout: talk
-  - scope:
-      path: ''
-      type: speakers
-    values:
-      layout: speaker
-  - scope:
-      path: ''
-      type: rooms
-    values:
-      layout: room
+# defaults:
+#   - scope:
+#       path: ''
+#       type: talks
+#     values:
+#       layout: talk
+#   - scope:
+#       path: ''
+#       type: speakers
+#     values:
+#       layout: speaker
+#   - scope:
+#       path: ''
+#       type: rooms
+#     values:
+#       layout: room
 
 conference:
+  lang: en
+  tz: "+02:00"
+  show_errors: false
   info_bars:
   navigation:
     logo:
-      name: 'Logic Group UGent'
+      name: 'Logic @ UGent'
       url: 'https://logicseminar.ugent.be'
     breakpoint: md
     links:
-      - name: Program
-        disabled: true
-        menu:
-          - name: Program Overview
-            relative_url: /program/
-          - name: Talks Overview
-            relative_url: /talks/
-          - name: Speakers Overview
-            relative_url: /speakers/
-      - name: Information
-        disabled: true
-        menu:
-          - name: Location
-            relative_url: /information/location
-          - name: Practical
-            relative_url: /information/practical
-      - name: Registration
-        relative_url: /registration
-        disabled: true
+      #       - name: Program
+      #         disabled: true
+      #         menu:
+      #           - name: Program Overview
+      #             relative_url: /program/
+      #           - name: Talks Overview
+      #             relative_url: /talks/
+      #           - name: Speakers Overview
+      #             relative_url: /speakers/
+      #       - name: Information
+      #         disabled: true
+      #         menu:
+      #           - name: Location
+      #             relative_url: /information/location
+      #           - name: Practical
+      #             relative_url: /information/practical
+      #       - name: Registration
+      #         relative_url: /registration
+      #         disabled: true
       - name: 'Previous Editions'
-        disabled: false
         menu:
-          - name: 2024
+          - name: Utrecht, The Netherlands, 2022
+            absolute_url: 'https://uswpt.sites.uu.nl/'
+          - name: Barcelona, Spain, 2023 (Workshop)
+            absolute_url: 'https://www.ub.edu/prooftheory/event/tps2023workshop/'
+          - name: Barcelona, Spain, 2023 (School)
+            absolute_url: 'https://www.ub.edu/prooftheory/event/tps2023school/'
+          - name: Birmingham, UK, 2024
             absolute_url: 'https://proofsociety2024.com/'
+          - name: (All Editions)
+            absolute_url: 'https://www.proofsociety.org/category/past-events/'
 
   location:
     hide: true
@@ -108,4 +119,4 @@ include:
 kramdown:
   math_engine: katex
 
-incremental: true
+incremental: false
