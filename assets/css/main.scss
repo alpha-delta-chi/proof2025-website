@@ -1,0 +1,25 @@
+---
+---
+
+/* Variables */
+
+$fa-font-path: '{{ site.baseurl }}/assets/webfonts'; /* required */
+
+$jumbotron-bg: white;
+$font-family-serif: serif;
+
+@import 'conference';
+
+.jumbotron h1, [class="navbar-brand"] {
+  font-family: $font-family-serif;
+  letter-spacing: -1px;
+  color: darkred;
+}
+
+.navbar {
+  background-color: darkred !important;
+}
+
+.navbar-logo a {
+  color: white;
+}
