@@ -1,14 +1,42 @@
 ---
 ---
 
+/*
+ * Libre Baskerville font family
+ * URL: https://fonts.google.com/specimen/Libre+Baskerville
+ */
+
+$lb-font-path-prefix: '{{ site.baseurl }}/assets/fonts/librebaskerville/librebaskerville';
+
+@font-face {
+  font-family: "Libre Baskerville";
+  font-weight: 400;
+  font-style: normal;
+  src: url("#{$lb-font-path-prefix}-regular.woff2") format("woff2"), url("#{$lb-font-path-prefix}-regular.woff") format("woff"), url("#{$lb-font-path-prefix}-regular.tff") format("truetype");
+}
+@font-face {
+  font-family: "Libre Baskerville";
+  font-weight: 700;
+  font-style: normal;
+  src: url("#{$lb-font-path-prefix}-bold.woff2") format("woff2"), url("#{$lb-font-path-prefix}-bold.woff") format("woff"), url("#{$lb-font-path-prefix}-bold.tff") format("truetype");
+}
+@font-face {
+  font-family: "Libre Baskerville";
+  font-weight: 400;
+  font-style: italic;
+  src: url("#{$lb-font-path-prefix}-italic.woff2") format("woff2"), url("#{$lb-font-path-prefix}-italic.woff") format("woff"), url("#{$lb-font-path-prefix}-italic.tff") format("truetype");
+}
+
 /* Variables */
 
 $fa-font-path: '{{ site.baseurl }}/assets/webfonts'; /* required */
 
 $jumbotron-bg: white;
-$font-family-serif: serif;
+$font-family-serif: "Libre Baskerville", serif;
 
 @import 'conference';
+
+/* Rest */
 
 .jumbotron h1, [class="navbar-brand"] {
   font-family: $font-family-serif;
