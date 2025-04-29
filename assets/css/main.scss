@@ -44,6 +44,12 @@ $font-family-serif: "Libre Baskerville", serif;
   color: darkred;
 }
 
+.jumbotron h3 {
+  font-family: $font-family-serif;
+  letter-spacing: -1px;
+  color: darkred;
+}
+
 .navbar {
   background-color: darkred !important;
 }
