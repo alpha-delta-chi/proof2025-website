@@ -2,6 +2,24 @@
 layout: home
 ---
 
+The **7<sup>th</sup> International School and Workshop on Proof Theory** will
+be organized by **Ghent University** under the auspices of [The Proof
+Society](https://www.proofsociety.org/). This annual event continues its
+tradition of uniting students, researchers, and practitioners to explore both
+the applied and foundational aspects of proof theory.
+
+Following the format of previous editions, the event begins with a three-day
+**Summer School (September 1–3)** offering five tutorials on a variety of
+topics related to proof theory. This will be followed by a two-day **Workshop
+(September 4–5)** featuring invited lectures and contributed talks.
+
+Guided by [The Proof
+Manifesto](https://www.proofsociety.org/the-proof-manifesto/), this event
+embraces the notion of proofs in its broadest sense, welcoming participation
+and contributions from logic, computer science, mathematics, and beyond.
+
+---
+
 ### Summer School on Proof Theory
 
 The school will be held from **September 1–3, 2025**. It will consist of 5
