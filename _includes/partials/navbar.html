@@ -79,19 +79,20 @@
           {%- endif -%}
         {%- endfor %}
       </ul>
-    </div>
 
-    {%- if site.conference.navigation.logo %}
-      <div class="navbar-brand navbar-logo mr-0 ml-1 text-right overflow-hidden">
-        <a href="{{ site.conference.navigation.logo.url }}">
-          {%- if site.conference.navigation.logo.img %}
-            <img src="{{ site.conference.navigation.logo.img | prepend: '/assets/images/' | prepend: site.baseurl }}" class="align-middle" alt="{{ site.conference.navigation.logo.name }}" />
-          {%- else %}
-            {{ site.conference.navigation.logo.name }}
-          {%- endif %}
-        </a>
-      </div>
-    {%- endif %}
+      {%- if site.conference.navigation.logo %}
+        <div class="navbar-brand navbar-logo mr-0 text-right overflow-hidden">
+          <a href="{{ site.conference.navigation.logo.url }}">
+            {%- if site.conference.navigation.logo.img %}
+              <img src="{{ site.conference.navigation.logo.img | prepend: '/assets/images/' | prepend: site.baseurl }}" class="align-middle" alt="{{ site.conference.navigation.logo.name }}" />
+            {%- else %}
+              {{ site.conference.navigation.logo.name }}
+            {%- endif %}
+          </a>
+        </div>
+      {%- endif %}
+
+    </div>
 
   </div>
 </nav>
