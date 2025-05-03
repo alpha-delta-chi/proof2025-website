@@ -27,12 +27,48 @@ $lb-font-path-prefix: '{{ site.baseurl }}/assets/fonts/librebaskerville/librebas
   src: url("#{$lb-font-path-prefix}-italic.woff2") format("woff2"), url("#{$lb-font-path-prefix}-italic.woff") format("woff"), url("#{$lb-font-path-prefix}-italic.tff") format("truetype");
 }
 
+/*
+ * UGent Panno text
+ * URL; https://styleguide.ugent.be/basic-principles/typography.html
+ */
+
+$panno-font-path-prefix: '{{ site.baseurl }}/assets/fonts/ugentpannotext/ugentpannotext';
+
+@font-face {
+  font-family: "UGent Panno";
+  font-weight: 200;
+  font-style: normal;
+  src: url("#{$panno-font-path-prefix}-semilight.woff") format("woff"), url("#{$panno-font-path-prefix}-semilight.tff") format("truetype"), url("#{$panno-font-path-prefix}-semilight.eot") format("embedded-opentype");
+}
+
+@font-face {
+  font-family: "UGent Panno";
+  font-weight: 400;
+  font-style: normal;
+  src: url("#{$panno-font-path-prefix}-normal.woff") format("woff"), url("#{$panno-font-path-prefix}-normal.tff") format("truetype"), url("#{$panno-font-path-prefix}-normal.eot") format("embedded-opentype");
+}
+
+@font-face {
+  font-family: "UGent Panno";
+  font-weight: 500;
+  font-style: normal;
+  src: url("#{$panno-font-path-prefix}-medium.woff") format("woff"), url("#{$panno-font-path-prefix}-medium.tff") format("truetype"), url("#{$panno-font-path-prefix}-medium.eot") format("embedded-opentype");
+}
+
+@font-face {
+  font-family: "UGent Panno";
+  font-weight: 600;
+  font-style: normal;
+  src: url("#{$panno-font-path-prefix}-semibold.woff") format("woff"), url("#{$panno-font-path-prefix}-semibold.tff") format("truetype"), url("#{$panno-font-path-prefix}-semibold.eot") format("embedded-opentype");
+}
+
 /* Variables */
 
 $fa-font-path: '{{ site.baseurl }}/assets/webfonts'; /* required */
 
 $jumbotron-bg: white;
 $font-family-serif: "Libre Baskerville", serif;
+$font-family-ugent: "UGent Panno", "Arial", sans-serif;
 
 @import 'conference';
 
@@ -54,6 +90,29 @@ $font-family-serif: "Libre Baskerville", serif;
   background-color: darkred !important;
 }
 
-.navbar-logo a {
-  color: white;
+/* UGent Logic logo */
+
+.navbar-logo {
+  background-color: #000000AA;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-family: $font-family-ugent;
+}
+
+.navbar-logo .logo-ugent {
+  color: #FFD200;
+}
+
+.navbar-logo .logo-logic {
+  color: #1E64C8;
+  font-weight: 600;
+}
+
+.navbar-logo:hover {
+  background-color: black;
+}
+
+.navbar-logo a:hover {
+  text-decoration: inherit;
 }

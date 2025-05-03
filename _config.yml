@@ -41,7 +41,7 @@ conference:
   info_bars:
   navigation:
     logo:
-      name: 'Logic @ UGent'
+      name: '<sup class="logo-ugent">UGent</sup><span class="logo-logic">Logic</span>'
       url: 'https://logicseminar.ugent.be'
     breakpoint: md
     links:
