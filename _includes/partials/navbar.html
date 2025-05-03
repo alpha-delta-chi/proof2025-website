@@ -81,6 +81,7 @@
       </ul>
 
       {%- if site.conference.navigation.logo %}
+        <div class="d-flex justify-content-end">
         <div class="navbar-brand navbar-logo mr-0 text-right overflow-hidden">
           <a href="{{ site.conference.navigation.logo.url }}">
             {%- if site.conference.navigation.logo.img %}
@@ -89,6 +90,7 @@
               {{ site.conference.navigation.logo.name }}
             {%- endif %}
           </a>
+        </div>
         </div>
       {%- endif %}
 
