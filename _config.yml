@@ -115,6 +115,10 @@ conference:
 
 include:
   - .htaccess
+  - .default.html
+
+exclude:
+  - README.md
 
 kramdown:
   math_engine: katex
