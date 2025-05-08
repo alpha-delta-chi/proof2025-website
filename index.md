@@ -46,6 +46,9 @@ The list of invited speakers are:
  - Anton Setzer
  - Arnold Beckmann, who will give a talk in memoriam of Wolfram Pohlers
 
+##### Contributed talks
+
+As is traditional for the Proof Society workshop, there will be an award for the *Best Student Presentation* at the workshop.  
 **The deadline for contributed talks is June 2, 2025.**
 
 The fee for the workshop will also be *150 € (regular)* or *100 € (reduced)*.
