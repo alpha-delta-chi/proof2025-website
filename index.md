@@ -40,7 +40,7 @@ The workshop will be held from **September 4–5, 2025**. It will consist of 5
 invited talks and regular contributed talks.
 
 The list of invited speakers are:
- - Toshi Arai
+ - Toshiyasu Arai
  - Juan Pablo Aguilera
  - Iris van der Giessen
  - Anton Setzer
@@ -76,7 +76,7 @@ The fee for the workshop will also be *150 € (regular)* or *100 € (reduced)*
 - Maria Emilia Maietti
 - Nicholas Pischke
 - Takako Nemoto
-- Monika Seisenberg
+- Monika Seisenberger
 - Johannes Stern
 </div>
 
@@ -84,7 +84,7 @@ The fee for the workshop will also be *150 € (regular)* or *100 € (reduced)*
 ##### Organizing committee
 - Andreas Weiermann
 - Fedor Pakhomov
-- Giovanni Soldá
+- Giovanni Soldà
 - Mojtaba Mojtahedi
 - Brett McLean
 - Alakh Dhruv Chopra
