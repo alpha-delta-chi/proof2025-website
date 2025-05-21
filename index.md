@@ -20,6 +20,14 @@ and contributions from logic, computer science, mathematics, and beyond.
 
 ---
 
+### Important Information
+
+**Travel Grants:** Students can apply for a Travel grant from the [ASL](https://aslonline.org/student-travel-awards/).
+The deadline is **June 1st**.
+Note that you must be an ASL member to be eligible.  
+
+---
+
 ### Summer School on Proof Theory
 
 The school will be held from **September 1–3, 2025**. It will consist of 5
