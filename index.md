@@ -35,8 +35,10 @@ The school will be held from **September 1–3, 2025**. It will consist of 5
 tutorials of 3 hours each.
 
 The list of tutorial speakers are:
+- Mohammad Ardeshir
 - Ali Enayat
 - Henry Towsner
+- Albert Visser
 - (rest to be announced)
 
 The fee for the school will be *150 € (regular)* or *100 € (reduced)*.
