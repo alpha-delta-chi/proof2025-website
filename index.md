@@ -25,7 +25,10 @@ and contributions from logic, computer science, mathematics, and beyond.
 **Travel Grants:** Students can apply for a Travel grant from the [ASL](https://aslonline.org/student-travel-awards/).
 The deadline is **June 1**.
 Note that you must be an ASL member to be eligible.  
-**Contributed Talks:** The deadline for [contributed talks](#contributed-talks) is **June 2**. **[Submit](https://easychair.org/conferences/?conf=proofsociety2025)**
+
+**Contributed Talks:** The deadline for [contributed talks](#contributed-talks)
+is ~~June 2~~ **extended to June 16**.
+**[Submit via Easychair.](https://easychair.org/conferences/?conf=proofsociety2025)**
 
 ---
 
@@ -65,7 +68,7 @@ As is traditional for the Proof Society workshop, there will be an award for the
 For the Workshop, we solicit submissions of short abstracts of up to **2 pages** (not including references), to be presented as a short talk.  
 There are no formal published proceedings, but accepted abstracts will be made available for the workshop.  
 Abstracts can be submitted through [EasyChair](https://easychair.org/conferences/?conf=proofsociety2025).
-The deadline is **June 2**.
+The deadline is ~~June 2~~ **extended to June 16**.
 
 The fee for the workshop will also be *150 € (regular)* or *100 € (reduced)*.
 
