@@ -30,6 +30,13 @@ Note that you must be an ASL member to be eligible.
 ~~**[Submit via Easychair.](https://easychair.org/conferences/?conf=proofsociety2025)**~~
 The submission of contributed talks is closed.
 
+**Registration:** Registration is now open until **July 31**.
+There are **three different** registration forms for
+* [Students at a Flemish university](https://event.ugent.be/registration/FSPS25) (0 € + 100 €)
+* [Other students](https://event.ugent.be/registration/OSPS25) (100 € + 100 €)
+* [Regular participants](https://event.ugent.be/registration/Unknown) (150 € + 150 €)
+
+with the indicated registration fees for the Summer School and Workshop, respectively.
 
 ---
 
@@ -44,8 +51,6 @@ The list of tutorial speakers are:
 - Henry Towsner
 - Albert Visser
 - (rest to be announced)
-
-The fee for the school will be *150 € (regular)* or *100 € (reduced)*.
 
 ---
 
@@ -70,8 +75,6 @@ For the Workshop, we solicit submissions of short abstracts of up to **2 pages**
 There are no formal published proceedings, but accepted abstracts will be made available for the workshop.  
 ~~Abstracts can be submitted through [EasyChair](https://easychair.org/conferences/?conf=proofsociety2025).~~
 ~~The deadline is June 2 **extended to June 16**.~~
-
-The fee for the workshop will also be *150 € (regular)* or *100 € (reduced)*.
 
 ---
 
