@@ -123,3 +123,45 @@ There are no formal published proceedings, but accepted abstracts will be made a
 
 </div>
 </div>
+
+---
+
+# Sponsors
+
+<div class="container w-75 bg-white">
+
+<div class="row justify-content-center align-items-center text-center">
+
+<div class="col-auto" markdown="1">
+{:style="text-align:center;margin-top:16px;margin-bottom:16px;margin-left:16px;margin-right:16px"}
+[![Research Foundation – Flanders]({{ "/assets/sponsors/logo_fwo.png" | relative_url }}){: width="150" }](https://www.fwo.be/en/)
+</div>
+
+<div class="col-auto" markdown="1">
+{:style="text-align:center;margin-top:16px;margin-bottom:16px;margin-left:16px;margin-right:16px"}
+[![Association for Symbolic Logic]({{ "/assets/sponsors/logo_asl.png" | relative_url }}){: width="150" }](https://aslonline.org/)
+</div>
+
+<div class="col-auto" markdown="1">
+{:style="text-align:center;margin-top:16px;margin-bottom:16px;margin-left:16px;margin-right:16px"}
+[![Ghent University Faculty of Sciences]({{ "/assets/sponsors/logo_facultyofsciences.png" | relative_url }}){: width="200" }](https://www.ugent.be/we/en)
+</div>
+
+<div class="col-auto" markdown="1">
+{:style="text-align:center;margin-top:16px;margin-bottom:16px;margin-left:16px;margin-right:16px"}
+[![NCRL - National Centre for Research in Logic]({{ "/assets/sponsors/logo_ncrl.png" | relative_url }}){: width="150" }](https://www.logic-center.be/en/)
+</div>
+
+<div class="col-auto" markdown="1">
+{:style="text-align:center;margin-top:16px;margin-bottom:16px;margin-left:16px;margin-right:16px"}
+![Vlaamse Regering]({{ "/assets/sponsors/logo_flanders.jpg" | relative_url }}){: width="250" }
+</div>
+
+<div class="col-auto" markdown="1">
+{:style="text-align:center;margin-top:16px;margin-bottom:16px"}
+[![Ghent University Doctoral Schools]({{ "/assets/sponsors/logo_doctoralschools.png" | relative_url }}){: width="150" }](https://www.ugent.be/doctoralschool/)
+</div>
+
+</div>
+
+</div>
