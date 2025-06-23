@@ -63,7 +63,6 @@ conference:
         #     relative_url: /information/practical
       - name: Registration
         relative_url: /registration
-        disabled: true
       - name: 'Previous Editions'
         menu:
           - name: Utrecht, The Netherlands, 2022
