@@ -36,7 +36,8 @@ There are **three different** registration forms for
 * [Other students](https://event.ugent.be/registration/OSPS25) (100 € + 100 €)
 * [Regular participants](https://event.ugent.be/registration/Unknown) (150 € + 150 €)
 
-with the indicated registration fees for the Summer School and Workshop, respectively.
+with the indicated registration fees for the Summer School and Workshop, respectively.  
+The optional Excursion (20 €) and Conference Dinner (40 €) are charged additionally. 
 
 ---
 
