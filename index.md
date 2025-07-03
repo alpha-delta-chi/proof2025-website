@@ -28,7 +28,7 @@ Note that you must be an ASL member to be eligible.
 
 **Contributed Talks:** ~~The deadline for [contributed talks](#contributed-talks) is June 2 **extended to June 16**.~~
 ~~**[Submit via Easychair.](https://easychair.org/conferences/?conf=proofsociety2025)**~~
-The submission of contributed talks is closed.
+Acceptance of contributed talks will be announced on **July 14**.
 
 **Registration:** Registration is now open until **July 31**.
 There are **three different** registration forms for
@@ -75,7 +75,8 @@ As is traditional for the Proof Society workshop, there will be an award for the
 For the Workshop, we solicit submissions of short abstracts of up to **2 pages** (not including references), to be presented as a short talk.  
 There are no formal published proceedings, but accepted abstracts will be made available for the workshop.  
 ~~Abstracts can be submitted through [EasyChair](https://easychair.org/conferences/?conf=proofsociety2025).~~
-~~The deadline is June 2 **extended to June 16**.~~
+~~The deadline is June 2 **extended to June 16**.~~  
+Acceptance of contributed talks will be announced on **July 14**.
 
 ---
 
