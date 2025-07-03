@@ -49,9 +49,9 @@ tutorials of 3 hours each.
 The list of tutorial speakers are:
 - Mohammad Ardeshir
 - Ali Enayat
+- Raheleh Jalali
 - Henry Towsner
 - Albert Visser
-- (rest to be announced)
 
 ---
 
