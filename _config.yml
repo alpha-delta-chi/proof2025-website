@@ -39,6 +39,12 @@ conference:
   tz: "+02:00"
   show_errors: false
   info_bars:
+    - title: Spam emails
+      color: warning
+      text: |
+        **IMPORTANT**: Please ignore the spam emails from ``coordination@travelhostingservices.com`` targeting participants of the Proof Society 2025: 7th International School and Workshop on Proof Theory.
+        Please do not reply to the spam email or click on any link in it.
+  
   navigation:
     logo:
       name: '<sup class="logo-ugent">UGent</sup><span class="logo-logic">Logic</span>'
