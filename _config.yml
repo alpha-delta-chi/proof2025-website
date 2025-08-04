@@ -42,9 +42,7 @@ conference:
     - title: Spam emails
       color: warning
       text: |
-        **IMPORTANT**: Please ignore the spam emails from ``coordination@travelhostingservices.com`` targeting participants of the Proof Society 2025: 7th International School and Workshop on Proof Theory.
-        Please do not reply to the spam email or click on any link in it.
-  
+        **IMPORTANT**: Please ignore any spam emails coming from suspicious addresses (like ``coordination@travelhostingservices.com``) targeting speakers and participants of the event; do not reply to them, or click on any links. Make sure to communicate only with addresses ending in ``@ugent.be`` and known organizers.
   navigation:
     logo:
       name: '<sup class="logo-ugent">UGent</sup><span class="logo-logic">Logic</span>'
