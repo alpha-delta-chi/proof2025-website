@@ -86,6 +86,13 @@ $font-family-ugent: "UGent Panno", "Arial", sans-serif;
   color: darkred;
 }
 
+h1, h2, h3, h4, h5 {
+  font-family: $font-family-serif;
+  letter-spacing: -1px;
+  color: darkred;
+}
+
+
 .navbar {
   background-color: darkred !important;
 }
