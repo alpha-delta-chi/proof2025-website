@@ -7,30 +7,54 @@ window.conference.awaitReady().then(() => {
     const map = window.conference.map.getMap();
 
     if (typeof map !== 'undefined') {
-        // let main_entrance = L.marker([51.05350121390813, 3.726539493169336]).addTo(map);
-        let main_entrance = L.marker([51.05350121390813, 3.726539493169336], {
+        let marker_sint_baafshuis = L.marker([51.05352383222492, 3.7266187087516283], {
             icon: L.divIcon({
-                className: 'map-marker-main-entrance',
-                html: '<span style="font-size: 24px; color: red"><span class="fas fa-map-marker-alt"></span></span>',
-                // html: '<center><span class="bg-light p-1 rounded-pill"><span class="fas fa-door-open"></span><br>Sint-Baafshuis</span></center>',
-                iconSize: [24, 24],
-                iconAnchor: [12, 24]
+                className: 'map-marker-sint-baafshuis',
+                html: '<center><span style="font-size: 24px; color: red"><span class="fas fa-map-marker-alt"></span></span></center>',
+                iconSize: [40, 40],
+                iconAnchor: [21, 30],
+                tooltipAnchor: [0, 0]
             })
         }).addTo(map);
 
-        function on_main_entrance_click(e) {
-            ;
-        }
-        main_entrance.on('click', on_main_entrance_click);
+        marker_sint_baafshuis.bindTooltip("Sint-Baafshuis", {
+            permanent: false,
+            direction: 'bottom',
+        }).on('click', function (e) {
+            this.openTooltip();
+        });
 
-        let cathedral = L.marker([51.05310994556973, 3.7264174309183042], {
+        let marker_entrance = L.marker([51.05345886295873, 3.726542559077271], {
+            icon: L.divIcon({
+                className: 'map-marker-entrance',
+                html: '<center><span style="font-size: 12px; color: maroon"><span class="fas fa-door-open"></span></span></center>',
+                iconSize: [20, 20],
+                iconAnchor: [10, 15],
+                tooltipAnchor: [0, 0]
+            })
+        }).addTo(map);
+
+        marker_entrance.bindTooltip("<center>Main Entrance<br>(Biezekapelstraat 2)</center>", {
+            permanent: false,
+            direction: 'bottom',
+        }).on('click', function (e) {
+            this.openTooltip();
+        });
+
+        let marker_sintbaafs = L.marker([51.053088652460715, 3.7264682192806013], {
             icon: L.divIcon({
                 className: '',
-                html: '<span style="font-size: 16px; color: brown"><span class="fas fa-church"></span></span>',
-                // html: '<center><span class="bg-light p-1 rounded-pill"><span class="fas fa-church"></span><br>Saint Bavo\'s Cathedral </span></center>',
-                iconSize: [16, 16],
-                iconAnchor: [0, 8]
+                html: '<center><span style="font-size: 12px; color: brown"><span class="fas fa-church"></span></span></center>',
+                iconSize: [20, 20],
+                iconAnchor: [10, 15]
             })
         }).addTo(map);
+
+        marker_sintbaafs.bindTooltip("Saint Bavo's Cathedral", {
+            permanent: false,
+            direction: 'bottom',
+        }).on('click', function (e) {
+            this.openTooltip();
+        });
     }
 });
