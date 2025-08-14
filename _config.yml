@@ -87,7 +87,7 @@ conference:
     map:
       home_coord: 51.05337318958073, 3.727216194283345
       map_provider: 'CartoDB.Voyager'
-      default_zoom: 18
+      default_zoom: 17
 
   program:
     url: /program
