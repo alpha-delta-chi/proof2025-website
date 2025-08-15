@@ -34,4 +34,13 @@ RewriteEngine On
 RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
 RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
 
-ErrorDocument 404 /.default.html
+# 2024-07-25T15:34:02+02:00
+# if an html file exists, then serve it
+# reference: https://stackoverflow.com/questions/75852082/how-to-use-htaccess-to-serve-html-file-without-extension-if-exists-or-fallback
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*)$ $1.html [L]
+
+ErrorDocument 403 /404
+ErrorDocument 404 /404
