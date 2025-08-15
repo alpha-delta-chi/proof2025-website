@@ -22,9 +22,12 @@ and contributions from logic, computer science, mathematics, and beyond.
 
 ### Important Information
 
+**Location:** The school and workshop will be held at **Sint-Baafshuis Gent**.
+More information (and a map) can be found [here](/information/location).
+
 **Travel Grants:** Students can apply for a Travel grant from the [ASL](https://aslonline.org/student-travel-awards/).
 The deadline is **June 1**.
-Note that you must be an ASL member to be eligible.  
+Note that you must be an ASL member to be eligible.
 
 **Contributed Talks:** ~~The deadline for [contributed talks](#contributed-talks) is June 2 **extended to June 16**.~~
 ~~**[Submit via Easychair.](https://easychair.org/conferences/?conf=proofsociety2025)**~~
